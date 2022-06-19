@@ -104,7 +104,7 @@ export const Minter = ({
         </div>
       </div>
       <div style={{ fontSize: '12px', marginBottom: '40px' }}>
-        ONLY 3 MINTS PER WALLET
+        ONLY {MAX_AMOUNT} MINTS PER WALLET
       </div>
       {true?<div
         onClick={async () => {

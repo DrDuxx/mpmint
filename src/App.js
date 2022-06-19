@@ -8,7 +8,7 @@ import Hajje from './assets/thumbnail_Hajje.png'
 
 const MAX_AMOUNT = 10
 const MAX_SUPPLY = 6000
-const CONTRACT_ADDRESS = '0x0dED860dbe267b6D952b2D23Da35ECe44e42C900'
+const CONTRACT_ADDRESS = '0x7D2C2aaf8919453B00aBAc4Af8eE8F119731d437'
 const BASE_PRICE = '20000000000000000'
 const ABI = [
 	{
