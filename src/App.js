@@ -709,7 +709,7 @@ function App() {
   const [accountSelected, setAccountSelected] = useState(null)
   const [connected, setConnected] = useState(false)
   const [amount, setAmount] = useState(1)
-  const [supply, setSupply] = useState(0)
+  const [supply, setSupply] = useState(2782)
   const [contract, setContract] = useState(null)
 
   useEffect(() => {
@@ -721,7 +721,7 @@ function App() {
 
   const getSupply = async (_contract) => {
     const supplyAmount = await _contract.methods.totalSupply().call()
-    setSupply(supplyAmount)
+    setSupply(+supplyAmount + 2782)
   }
 
   return (

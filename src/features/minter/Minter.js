@@ -62,7 +62,8 @@ export const Minter = ({
             border: '1px solid #101671',
             borderRadius: '8px',
             fontSize: '24px',
-            color:'#101671'
+            color:'#101671',
+            cursor:'pointer'
           }}
         >
           -
@@ -97,7 +98,8 @@ export const Minter = ({
             border: '1px solid #101671',
             borderRadius: '8px',
             fontSize: '24px',
-            color:'#101671'
+            color:'#101671',
+            cursor:'pointer'
           }}
         >
           +
